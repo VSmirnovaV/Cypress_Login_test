@@ -1,0 +1,9 @@
+{
+    "header": ".page-header__title",
+    "login": "[for='email'] > .login__input",
+    "pass": "[for='pwd'] > .login__input",
+    "button": ".login__button",
+    "film_name_1": ":nth-child(1) > .movie__info > .movie__description > .movie__title",
+    "film_name_2": ":nth-child(2) > .movie__info > .movie__description > .movie__title",
+    "film_name_3": ":nth-child(3) > .movie__info > .movie__description > .movie__title"
+}

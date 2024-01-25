@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "email": null,
+      "password": "qamid"
+    },
+
+    {
+      "email": "qamid@qamid.ru",
+      "password": null
+    },
+
+    {
+      "email": null,
+      "password": null
+    }
+  ]
+}
+ 
+   
