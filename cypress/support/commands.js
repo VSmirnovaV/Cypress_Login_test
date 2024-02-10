@@ -2,12 +2,8 @@ Cypress.Commands.add('visibleText', (text) => {
 	cy.contains(text).should('be.visible');
 });
 
-Cypress.Commands.add('visible', () => {
-	cy.fixture('selector').then(sel => {
-		cy.get(sel.film_name_1).should('be.visible');
-		cy.get(sel.film_name_2).should('be.visible');
-		cy.get(sel.film_name_3).should('be.visible');
-	})
+Cypress.Commands.add('clickElement', (selector) => {
+	cy.get(selector).click();
 });
 
 Cypress.Commands.add('visibleTitle', () => {
